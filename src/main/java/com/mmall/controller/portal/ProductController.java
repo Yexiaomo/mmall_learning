@@ -1,21 +1,14 @@
 package com.mmall.controller.portal;
 
 import com.github.pagehelper.PageInfo;
-import com.google.common.html.HtmlEscapers;
-import com.mmall.common.Const;
 import com.mmall.common.ServerResponse;
-import com.mmall.pojo.User;
 import com.mmall.service.IProductService;
-import com.mmall.service.IUserService;
 import com.mmall.vo.ProductDetailVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/product/")
