@@ -25,7 +25,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 @Controller
-@RequestMapping("/order/")
+@RequestMapping("/order")
 public class OrderController {
 
     private static  final Logger logger = LoggerFactory.getLogger(OrderController.class);

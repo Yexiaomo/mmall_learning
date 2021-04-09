@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpSession;
 
 @Controller
-@RequestMapping("/cart/")
+@RequestMapping("/cart")
 public class CartController {
     @Autowired
     private ICartService iCartService;

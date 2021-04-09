@@ -20,7 +20,7 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @Controller
-@RequestMapping("/shipping/")
+@RequestMapping("/shipping")
 public class ShippingController {
 
 
