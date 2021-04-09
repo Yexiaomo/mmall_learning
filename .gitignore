@@ -34,3 +34,7 @@ target/
 Thumbs.db
 
 target
+
+# must push git
+
+.idea/workspace.xml
