@@ -8,6 +8,7 @@ import com.mmall.service.IUserService;
 import com.mmall.util.CookieUtil;
 import com.mmall.util.JsonUtil;
 import com.mmall.util.RedisPoolUtil;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -68,10 +69,15 @@ public class UserController {
 
     @RequestMapping(value = "get_user_info.do", method = RequestMethod.POST)
     @ResponseBody
-    public ServerResponse<User> getUserInfo(HttpSession session){
-        User user = (User) session.getAttribute(Const.CURRENT_USER);
-        if(user != null){
-            return ServerResponse.createBySuccess(user);
+    public ServerResponse<User> getUserInfo(HttpSession session, HttpServletRequest httpServletRequest){
+//        User user = (User) session.getAttribute(Const.CURRENT_USER);
+        String loginToken = CookieUtil.readLoginToken(httpServletRequest);
+        if(!StringUtils.isEmpty(loginToken)){
+            String userJsonStr  = RedisPoolUtil.get(loginToken);
+            User user = JsonUtil.String2Obj(userJsonStr, User.class);
+            if(user != null){
+                return ServerResponse.createBySuccess(user);
+            }
         }
         return ServerResponse.createByErrorMessage("用户未登录,无法获得当前用户信息");
     }

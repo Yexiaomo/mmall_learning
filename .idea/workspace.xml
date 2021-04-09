@@ -8,13 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faffacf5-bf35-48b1-90ca-d4c8cd2a896e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/CookieUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/CookieUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/util/CookieUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mmall.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/controller/portal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/controller/portal/UserController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +74,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -438,7 +433,7 @@
       <workItem from="1617766128279" duration="9868000" />
       <workItem from="1617849645650" duration="2429000" />
       <workItem from="1617885071799" duration="4501000" />
-      <workItem from="1617933994814" duration="7284000" />
+      <workItem from="1617933994814" duration="9636000" />
     </task>
     <servers />
   </component>
@@ -471,7 +466,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
