@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @Slf4j
 public class CookieUtil {
-    private final  static String COOKIE_DOMAIN = ".mmall.com";
+    private final  static String COOKIE_DOMAIN = "mmall.com";
     private final static String COOKIE_NAME = "mmall_login_token";
 
     /**
@@ -60,7 +60,7 @@ public class CookieUtil {
         final Cookie[] cookies = request.getCookies();
         if(cookies != null){
             for(Cookie cookie : cookies){
-                if(StringUtils.equals(cookie.getName(),COOKIE_NAME));
+                if(StringUtils.equals(cookie.getName(), COOKIE_NAME));
                 cookie.setDomain(COOKIE_DOMAIN);
                 cookie.setPath("/");
                 cookie.setMaxAge(0);
