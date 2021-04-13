@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faffacf5-bf35-48b1-90ca-d4c8cd2a896e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -433,7 +433,8 @@
       <workItem from="1617766128279" duration="9868000" />
       <workItem from="1617849645650" duration="2429000" />
       <workItem from="1617885071799" duration="4501000" />
-      <workItem from="1617933994814" duration="10625000" />
+      <workItem from="1617933994814" duration="12280000" />
+      <workItem from="1618277802085" duration="2529000" />
     </task>
     <servers />
   </component>
