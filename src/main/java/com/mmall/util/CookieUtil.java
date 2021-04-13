@@ -60,13 +60,14 @@ public class CookieUtil {
         final Cookie[] cookies = request.getCookies();
         if(cookies != null){
             for(Cookie cookie : cookies){
-                if(StringUtils.equals(cookie.getName(), COOKIE_NAME));
-                cookie.setDomain(COOKIE_DOMAIN);
-                cookie.setPath("/");
-                cookie.setMaxAge(0);
-                log.info("del cookieName:{}, cookieVal:{}", cookie.getName(), cookie.getValue());
-                response.addCookie(cookie);
-                return;
+                if(StringUtils.equals(cookie.getName(), COOKIE_NAME)){
+                    cookie.setDomain(COOKIE_DOMAIN);
+                    cookie.setPath("/");
+                    cookie.setMaxAge(0);
+                    log.info("del cookieName:{}, cookieVal:{}", cookie.getName(), cookie.getValue());
+                    response.addCookie(cookie);
+                    return;
+                }
             }
         }
     }
